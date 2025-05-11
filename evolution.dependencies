@@ -1,0 +1,13 @@
+[
+  {
+    "repository": "device_motorola_msm8998-common",
+    "target_path": "device/motorola/msm8998-common",
+    "remote": "evo-devices"
+  },
+  {
+    "repository": "Deivid-21s-Sources/proprietary_vendor_motorola_beckham",
+    "target_path": "vendor/motorola/beckham",
+    "remote": "github-non-los",
+    "branch": "lineage-22.2"
+  }
+]
