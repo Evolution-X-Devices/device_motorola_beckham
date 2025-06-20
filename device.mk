@@ -52,11 +52,10 @@ TARGET_SCREEN_WIDTH := 1080
 $(call add-product-dex-preopt-module-config,MotoSignatureApp,disable)
 
 # Init
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/init.sys.beckham.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.sys.beckham.rc
-
-$(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/etc/init/hw/*.rc),\
-        $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/$(notdir $f)))
+PRODUCT_PACKAGES += \
+    init.beckham.rc \
+    init.recovery.beckham.rc \
+    init.sys.beckham.rc
 
 # ModService
 PRODUCT_COPY_FILES += \
@@ -86,10 +85,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hce.xml \
     frameworks/native/data/etc/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
-
-# Recovery
- PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/init.recovery.beckham.rc:root/init.recovery.beckham.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \
