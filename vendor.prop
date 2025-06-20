@@ -19,7 +19,7 @@ vendor.audio.offload.gapless.enabled=false
 vendor.voice.path.for.pcm.voip=false
 
 # Bluetooth
-bluetooth.device.default_name=Moto Z3 Play
+bluetooth.device.default_name=moto z(3) play
 
 # Display
 ro.hardware.vulkan=sdm660

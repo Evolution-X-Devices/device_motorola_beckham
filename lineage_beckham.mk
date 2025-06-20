@@ -10,7 +10,7 @@ $(call inherit-product, device/motorola/beckham/device.mk)
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := beckham
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_MODEL := Moto Z3 Play
+PRODUCT_MODEL := moto z(3) play
 PRODUCT_NAME := lineage_beckham
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
