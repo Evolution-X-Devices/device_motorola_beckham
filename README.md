@@ -1,5 +1,3 @@
-Copyright 2018 - The LineageOS Project
-
 Device configuration for Motorola Z3 Play (beckham)
 ==================================
 
@@ -18,3 +16,13 @@ Rear Camera  | 12 MP (f/1.7) + 5 MP (f/2.2), (PDAF, dual pixel)
 Front Camera | 8 MP (f/2.2)
 
 ![Motorola Z3 Play](https://i-cdn.phonearena.com//images/phones/72220-xlarge/Motorola-Moto-Z3-Play-8.jpg "Motorola Z3 Play")
+
+
+```
+
+SPDX-FileCopyrightText: The LineageOS Project
+
+SPDX-License-Identifier: Apache-2.0
+
+```
+
