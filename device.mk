@@ -39,6 +39,8 @@ $(call add-product-dex-preopt-module-config,MotoSignatureApp,disable)
 
 # Init
 PRODUCT_PACKAGES += \
+    fstab.qcom \
+    fstab.qcom.ramdisk \
     init.beckham.rc \
     init.recovery.beckham.rc \
     init.sys.beckham.rc
