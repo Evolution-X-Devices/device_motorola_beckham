@@ -21,4 +21,4 @@ PRODUCT_NAME := lineage_beckham
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="beckham-user 9 PPWS29.131-27-1-27 34b6d release-keys" \
     BuildFingerprint=motorola/beckham/beckham:9/PPWS29.131-27-1-27/34b6d:user/release-keys \
-    DeviceName=beckham
+    DeviceProduct=beckham
