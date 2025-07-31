@@ -83,6 +83,10 @@ PRODUCT_PACKAGES += \
     SettingsResDevice \
     SettingsProviderResDevice
 
+# Permissions
+PRODUCT_PACKAGES += \
+    ModsManifest
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
